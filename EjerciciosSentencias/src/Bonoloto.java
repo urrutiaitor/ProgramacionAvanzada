@@ -9,7 +9,7 @@ public class Bonoloto {
 	
 	public void leer(){
 		Scanner teclado;
-		teclado  = new Scanner(System.in);
+		teclado = new Scanner(System.in);
 		
 		System.out.println("Introducir los seis numeros de la bonoloto");
 		for(int i = 0; i < 6 ; i++){
@@ -39,6 +39,7 @@ public class Bonoloto {
 	public void miMain(){
 		this.numerosBonoloto = new int[6];
 		this.numeroGanador = new int[6];
+		
 		leer();
 		comparar();
 		System.out.println("Total aciertos-->"+ totalAciertos);

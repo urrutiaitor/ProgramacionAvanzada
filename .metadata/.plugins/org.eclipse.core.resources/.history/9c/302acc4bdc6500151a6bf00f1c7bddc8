@@ -1,0 +1,15 @@
+package cuentaclicks;
+
+import javax.swing.JFrame;
+
+public class PantallaPrincipal {
+
+	public PantallaPrincipal() {
+		JFrame pantalla = new JFrame("Cuenta Clicks"); 
+	}
+	
+	public static void main(String[] args) {
+		PantallaPrincipal programa = new PantallaPrincipal();
+	}
+
+}

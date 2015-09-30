@@ -1,0 +1,72 @@
+package ejercicioMayordomoFagor;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Main ejercicio = new Main();
+		ejercicio.menu();
+	}
+
+	public static void menu() {
+		Scanner teclado = new Scanner(System.in);
+		int opcion = 0;
+		System.out.println("***Que quieres haces?***");
+		System.out.println("1-.Dar de alta un electrodomestico");
+		System.out.println("2-.Ver los electrodomesticos y su estado");
+		System.out.println("3-Poner en marcha/parar electrodomestico");
+		System.out.println("0-.Salir");
+
+		opcion = teclado.nextInt();
+		teclado.nextLine();
+
+		switch (opcion) {
+		case 1:
+			altaElectrodomestico();
+			break;
+		case 2:
+
+			break;
+		case 3:
+
+			break;
+
+		default:
+			break;
+		}
+	}
+
+	private static void altaElectrodomestico() {
+		menuElectrodomestico();
+	}
+
+	public static void menuElectrodomestico() {
+		Scanner teclado = new Scanner(System.in);
+		int opcion = 0;
+
+		System.out.println("***Que electrodomestico quiere dar de alta?***");
+		System.out.println("1-.Horno");
+		System.out.println("2-.Lavadora");
+		System.out.println("3-.Microondas");
+		System.out.println("0-.Salir");
+
+		opcion = teclado.nextInt();
+		teclado.nextLine();
+
+		switch (opcion) {
+		case 1:
+			Horno horno = new Horno();
+			break;
+		case 2:
+			Lavadora lavadora = new Lavadora();
+			break;
+		case 3:
+			Microondas microondas = new Microondas();
+			break;
+
+		default:
+			break;
+		}
+	}
+}

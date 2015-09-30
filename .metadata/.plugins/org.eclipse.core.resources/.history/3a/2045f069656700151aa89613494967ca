@@ -1,0 +1,10 @@
+package ejercicioMayordomoFagor;
+
+public class Horno implements Electrodomesticos{
+
+	@Override
+	public String toString() {
+		return "Horno [encendido=" + encendido + "]";
+	}
+	
+}

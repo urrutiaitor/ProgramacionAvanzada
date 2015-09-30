@@ -1,0 +1,38 @@
+package cuentaclicks;
+
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.Font;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class PantallaPrincipal {
+
+	public PantallaPrincipal() {
+		JFrame pantalla = new JFrame("Cuenta Clicks"); //Creas la pantalla
+		pantalla.setSize(300, 400);
+		pantalla.setLocation(480, 100);
+		
+		pantalla.setContentPane(crearPanelVentana());//Coloca como panel el panel que te voy a pasar(colocar algo en la zona gris)
+		pantalla.setVisible(true);//La haces visible
+		pantalla.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//El programa se termina
+	}
+	
+	private Container crearPanelVentana() {
+		JPanel panel = new JPanel();
+		JLabel lvalor = new JLabel("0");
+		
+		lvalor.setFont(new Font("Arial",Font.BOLD,46));
+		lValor.setForeground(Color.RED);
+		panel.add(lvalor);
+		
+		return panel;
+	}
+
+	public static void main(String[] args) {
+		PantallaPrincipal programa = new PantallaPrincipal();
+	}
+
+}

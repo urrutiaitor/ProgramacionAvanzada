@@ -1,0 +1,24 @@
+package ejercicioHora;
+
+public class Hora {
+
+	int hora = 0;
+	int minutos = 0;
+	
+	
+	public Hora(int hora, int minutos) {
+		super();
+		this.hora = hora;
+		this.minutos = minutos;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Hora [hora=" + hora + ", minutos=" + minutos + "]";
+	}
+	
+	
+	
+	
+}

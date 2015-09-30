@@ -1,0 +1,20 @@
+package ejercicioMayordomoFagor;
+
+public abstract class Electrodomesticos {
+	protected boolean encendido = false;
+	
+	public abstract String toString();
+	
+	public boolean activar(){
+		if(!encendido){
+			encendido=true;
+			return true;
+		}else return false;
+	}
+	public boolean desActivar(){
+		if(encendido){
+			encendido=false;
+			return true;
+		}else return false;
+	}
+}

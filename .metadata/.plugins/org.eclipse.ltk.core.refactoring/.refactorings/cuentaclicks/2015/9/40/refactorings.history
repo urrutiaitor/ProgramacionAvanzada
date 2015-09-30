@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;lvalor&apos; in &apos;cuentaclicks.PantallaPrincipal&apos; to &apos;lValor&apos;&#x0D;&#x0A;- Original project: &apos;cuentaclicks&apos;&#x0D;&#x0A;- Original element: &apos;cuentaclicks.PantallaPrincipal.lvalor&apos;&#x0D;&#x0A;- Renamed element: &apos;cuentaclicks.PantallaPrincipal.lValor&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;lvalor&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;cuentaclicks{PantallaPrincipal.java[PantallaPrincipal^lvalor" name="lValor" references="true" setter="false" stamp="1443445252985" textual="false" version="1.0"/>
+</session>

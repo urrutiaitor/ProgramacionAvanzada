@@ -1,0 +1,5 @@
+package ejercicioMayordomoFagor;
+
+public class Lavadora extends Electrodomesticos {
+
+}

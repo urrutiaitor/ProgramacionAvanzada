@@ -1,0 +1,5 @@
+package ejercicioMayordomoFagor;
+
+public class Horno extends Electrodomesticos{
+
+}

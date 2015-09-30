@@ -1,0 +1,11 @@
+package ejercicioMayordomoFagor;
+
+public class Lavadora extends Electrodomesticos {
+	boolean encendido = false;
+
+	@Override
+	public String toString() {
+		return "Lavadora [encendido=" + encendido + "]";
+	}
+	
+}

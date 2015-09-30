@@ -1,0 +1,27 @@
+package ejercicioHora;
+
+import java.util.ArrayList;
+import java.util.ListIterator;
+import java.util.Scanner;
+
+public class Main {
+
+	Hora hora;
+	ArrayList <Hora> horas;
+	ListIterator<Hora> horaIt;
+	
+	public static void main(String[] args) {
+		Main ejercicio = new Main();
+		ejercicio.menu();
+
+	}
+
+	public void menu(){
+		Scanner teclado = new Scanner(System.in);
+		
+		int opcion = 0;
+		
+		System.out.println("Que quiere hacer?");
+	}
+	
+}

@@ -1,0 +1,8 @@
+1442947051079	Rename local variable 'name'
+1442947068088	Rename local variable 'floor'
+1442947085610	Rename local variable 'doorOpened'
+1442947104865	Rename field 'floor'
+1442947126405	Rename field 'name'
+1442947136997	Rename field 'doorOpened'
+1442947297182	Rename package 'Ascensor'
+1442947357432	Rename field 'elevators'

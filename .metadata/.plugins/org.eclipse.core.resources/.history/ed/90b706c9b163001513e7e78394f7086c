@@ -1,0 +1,56 @@
+package administracionBanco;
+
+import java.util.Scanner;
+
+public class Main {
+
+	final static int MAXNUMEROCUENTA = 100;
+	CuentaBanco cuentas[];
+
+	public static void main(String[] args) {
+		Main main = new Main();
+
+		main.inicializar();
+		main.menu();
+
+	}
+
+	public void menu() {
+		Scanner teclado = new Scanner(System.in);
+		int opcion = 0;
+
+		do {
+			System.out.println("1.Crear una cuenta");
+			System.out.println("2.Ver el estado de las cuentas");
+			System.out.println("3.Hacer una operación sobre una cuenta ");
+			System.out.println("0.Salir");
+			opcion = teclado.nextInt();
+			teclado.nextLine();
+
+		} while (opcion != 0);
+
+		switch (opcion) {
+		case 1:
+			crearCuenta();
+			break;
+		case 2:
+			estadoCuenta();
+			break;
+		case 3:
+			operacionCuenta();
+			break;
+
+		default:
+			break;
+		}
+	}
+
+	public void inicializar() {
+		cuentas = new CuentaBanco[MAXNUMEROCUENTA];
+	}
+
+	public void crearCuenta() {
+
+	}
+	public void
+}
