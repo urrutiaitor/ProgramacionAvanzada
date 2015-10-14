@@ -1,0 +1,57 @@
+package FigurasGeometricas;
+
+import java.util.Comparator;
+
+public class Figuras implements Comparable<Figuras>{
+
+	int area;
+	int x;
+	int y;
+	
+	
+	public Figuras(int area, int x, int y) {
+		super();
+		this.area = area;
+		this.x = x;
+		this.y = y;
+	}
+	public int getArea() {
+		return area;
+	}
+	public void setArea(int area) {
+		this.area = area;
+	}
+	public int getX() {
+		return x;
+	}
+	public void setX(int x) {
+		this.x = x;
+	}
+	public int getY() {
+		return y;
+	}
+	public void setY(int y) {
+		this.y = y;
+	}
+	@Override
+	public String toString() {
+		return "Figuras [area=" + area + ", x=" + x + ", y=" + y + "]";
+	}
+	
+	
+	public static Comparator<Figuras> ComparadorDeAreas = new Comparator<Figuras>(){
+		@Override
+		public int compare(Figuras f1, Figuras f2) {
+			return Integer.compare(f1.getArea(), f2.getArea());
+		}
+	};
+
+
+	@Override
+	public int compareTo(Figuras o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+}

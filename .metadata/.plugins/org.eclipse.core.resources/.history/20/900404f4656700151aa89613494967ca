@@ -1,7 +1,0 @@
-package ejercicioMayordomoFagor;
-
-public abstract class Electrodomesticos {
-	protected boolean encendido = false;
-	
-	public abstract String toString();
-}

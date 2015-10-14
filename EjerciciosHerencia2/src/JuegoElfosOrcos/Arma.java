@@ -1,0 +1,22 @@
+package JuegoElfosOrcos;
+
+public class Arma extends Artefacto{
+
+	public Arma(int vidas, String nombre) {
+		super(vidas, nombre);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Arma [vidas=" + vidas + ", nombre=" + nombre +"]";
+	}
+
+	@Override
+	public void accion(Criatura criaturaObjetivo) {
+		criaturaObjetivo.setVida(criaturaObjetivo.getVida() - vidas);
+	}
+	
+	
+
+}

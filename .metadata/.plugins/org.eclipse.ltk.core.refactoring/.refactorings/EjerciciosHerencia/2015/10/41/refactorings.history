@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MiComparador.java&apos; to &apos;EjerciciosHerencia2/src/FigurasGeometricas&apos;&#x0D;&#x0A;- Original project: &apos;EjerciciosHerencia&apos;&#x0D;&#x0A;- Destination element: &apos;EjerciciosHerencia2/src/FigurasGeometricas&apos;&#x0D;&#x0A;- Original element: &apos;ejercicioHora.MiComparador.java&apos;" description="Copy compilation unit" destination="=EjerciciosHerencia2/src&lt;FigurasGeometricas" element1="/src&lt;ejercicioHora{MiComparador.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1444237601496" units="1" version="1.0"/>
+</session>

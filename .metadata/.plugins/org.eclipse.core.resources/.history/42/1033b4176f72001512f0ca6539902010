@@ -1,0 +1,10 @@
+package Contraseña;
+
+public class Contraseña {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
