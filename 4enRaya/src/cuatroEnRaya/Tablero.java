@@ -22,7 +22,7 @@ public class Tablero {
 		
 		for(int i = 0; i < filas ; i++){
 			for(int j = 0 ; j < columnas ; j++){
-				matriz[i][j] = 0;
+				matriz[i][j] = new Integer(0);
 			}
 		}
 	}
